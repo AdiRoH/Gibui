@@ -1,0 +1,60 @@
+int main()
+{
+	DA_T* daptr=0;
+	int res,inputNum,capacity;
+	int option;
+	int count=1;
+	
+	printf("enter array capacity");
+	scanf
+
+	while(count)
+		{
+		printf(menu);
+		scanf(options);
+		switch(option)
+		case 1:
+			break;
+		case 2:
+			break;
+		defaut: cont=0;break;
+		
+		}
+	saveInFile(AD_T* daPtr,char* fName);
+	destroy;
+	return 0;
+}
+
+void loadFromFile(DA_T* daPtr,char* fName)
+{
+	float st,et;
+	int room;
+	Meeting* mPtr;
+	FILE* fp=fopen(fname,"r")//put attion to read only
+	if(fp!=NULL)
+	while(1)
+	{
+		fscanf(fp,"%f%f%d",&st,&et,&room);
+		if(!feof(fp))
+		{
+			mPtr=createMeeting(st,et,room);
+			insertDA(daPTR,mPTR);
+		}
+		fclose(fp);
+	}
+
+}
+
+saveInFile(AD_T* daPtr,char* fName)
+{
+	int i=0;
+	FILE* fp=fopen(fName,"w");
+	for(i=0;i<daPtr->nom;i++)
+	{
+		fprintf(fp,%f %f %f\n",daPtr->arr[i]->st,
+				       daPtr->arr[i]->et,
+				       daPtr->arr[i]->room);
+	}
+	fclose(fp);
+
+}
